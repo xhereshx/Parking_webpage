@@ -1,0 +1,27 @@
+@import "Variables";
+.parkingProblems {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.parkingProblems_left {
+  text-align: left;
+}
+.parkingProblems_header {
+  padding-bottom: 3%;
+}
+.parkingProblems--paddingboton5 {
+  padding-bottom: 5%;
+}
+.parkingProblems--color {
+  color: $blue;
+}
+
+@media only screen and (min-width: 579px) {
+  .parkingProblems_header {
+    font-size: $MainHeader;
+  }
+  .parkingProblems_sectionHeader {
+    font-size: $SecondaryHeader;
+  }
+}

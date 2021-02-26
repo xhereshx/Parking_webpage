@@ -1,0 +1,35 @@
+@import "Variables";
+
+.feature {
+  background-image: url(../img/app.png);
+  // width: 100%;
+  min-height: 25rem;
+  background-size: cover;
+  background-position: center bottom;
+}
+.feature_header {
+  color: $white;
+  padding-top: 2rem;
+  text-align: center;
+}
+.feature_graydiv {
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 0rem;
+  border-radius: 15px;
+}
+.feature_picture {
+  padding-top: 10px;
+}
+@media only screen and (max-width: 579px) {
+  .feature_picturesFirst {
+    padding-top: 10px;
+  }
+}
+@media only screen and (min-width: 580px) {
+  .feature_header {
+    font-size: $MainHeader;
+    text-align: start;
+  }
+}

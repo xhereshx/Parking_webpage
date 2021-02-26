@@ -1,0 +1,24 @@
+@import "Variables";
+
+.solution {
+  background-color: #e0e0e0;
+  // width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media only screen and (min-width: 579px) {
+  .solution_header {
+    font-size: $MainHeader;
+  }
+  .solution_sectionHeader {
+    font-size: $SecondaryHeader;
+  }
+}
+.solution--color {
+  color: $blue;
+}
+.solution_img {
+  border: 1px solid $blue;
+}

@@ -1,0 +1,34 @@
+@import "Variables";
+
+.pyramid {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.pyramid_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.pyramid_picturediv {
+  margin-bottom: 10px;
+}
+.pyramid_textmargin {
+  margin-top: 10px;
+}
+.pyramid--textpadding {
+  padding-top: 1rem;
+}
+@media only screen and (min-width: 580px) {
+  .pyramid_header {
+    font-size: $MainHeader;
+  }
+}
+.pyramid_background {
+  background-image: url(../img/pyramida.png);
+  width: 350px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center bottom; */
+
+  text-align: left;
+}
