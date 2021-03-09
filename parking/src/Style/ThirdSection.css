@@ -1,0 +1,25 @@
+.solution {
+  background-color: #e0e0e0;
+  height: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 579px) {
+  .solution_header {
+    font-size: 32px;
+  }
+  .solution_sectionHeader {
+    font-size: 16px;
+  }
+}
+
+.solution--color {
+  color: #0000ff;
+}
+
+.solution_img {
+  border: 1px solid #0000ff;
+}
+/*# sourceMappingURL=ThirdSection.css.map */

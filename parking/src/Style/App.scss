@@ -1,3 +1,4 @@
+@import "~bootstrap/scss/bootstrap";
 @import "Variables";
 @import "FirstSection";
 @import "SecondSection";
@@ -9,3 +10,11 @@
 @import "EightSection";
 @import "Footer";
 @import "NavBar";
+
+// test code
+.container_border {
+  border: solid 5px red;
+}
+.container_itemsborder {
+  border: solid 1px green;
+}

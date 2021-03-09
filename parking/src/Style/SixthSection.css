@@ -1,0 +1,31 @@
+.concept {
+  background-color: #0000ff;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.concept_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 580px) {
+  .concept_header {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .concept_text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 579px) {
+  .concept_pictures {
+    text-align: left;
+  }
+}
+/*# sourceMappingURL=SixthSection.css.map */

@@ -1,0 +1,302 @@
+.carpark_padding {
+  padding-top: 10%;
+}
+
+.carpark_paddingBotton {
+  padding-bottom: 5%;
+}
+
+.carpark_paddingTop {
+  padding-top: 2%;
+}
+
+.carpark {
+  background-image: url(../img/automotive.png);
+  background-size: cover;
+  background-position: center bottom;
+  color: white;
+  text-align: center;
+}
+
+.carpark_header {
+  font-size: 20px;
+  color: red;
+}
+
+.parkingProblems {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.parkingProblems_left {
+  text-align: left;
+}
+
+.parkingProblems_header {
+  padding-bottom: 3%;
+}
+
+.parkingProblems--paddingboton5 {
+  padding-bottom: 5%;
+}
+
+.parkingProblems--color {
+  color: #0000ff;
+}
+
+@media only screen and (min-width: 579px) {
+  .parkingProblems_header {
+    font-size: 32px;
+  }
+  .parkingProblems_sectionHeader {
+    font-size: 16px;
+  }
+}
+
+.solution {
+  background-color: #e0e0e0;
+  height: 100%;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (min-width: 579px) {
+  .solution_header {
+    font-size: 32px;
+  }
+  .solution_sectionHeader {
+    font-size: 16px;
+  }
+}
+
+.solution--color {
+  color: #0000ff;
+}
+
+.solution_img {
+  border: 1px solid #0000ff;
+}
+
+.feature {
+  background-image: url(../img/app.png);
+  min-height: 25rem;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.feature_header {
+  color: white;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.feature_graydiv {
+  background-color: #e0e0e0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem 0rem;
+  border-radius: 15px;
+}
+
+.feature_picture {
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 579px) {
+  .feature_picturesFirst {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 580px) {
+  .feature_header {
+    font-size: 32px;
+    text-align: start;
+  }
+}
+
+.pyramid {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pyramid_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.pyramid_picturediv {
+  margin-bottom: 10px;
+}
+
+.pyramid_textmargin {
+  margin-top: 10px;
+}
+
+.pyramid--textpadding {
+  padding-top: 1rem;
+}
+
+@media only screen and (min-width: 580px) {
+  .pyramid_header {
+    font-size: 32px;
+  }
+}
+
+.pyramid_background {
+  background-image: url(../img/pyramida.png);
+  width: 350px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center bottom; */
+  text-align: left;
+}
+
+.concept {
+  background-color: #0000ff;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+}
+
+.concept_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 580px) {
+  .concept_header {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .concept_text {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 579px) {
+  .concept_pictures {
+    text-align: left;
+  }
+}
+
+.partners {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.partners_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.partners_Atos {
+  text-align: left;
+}
+
+@media only screen and (min-width: 580px) {
+  .partners_header {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .partners_providers {
+    margin-top: -3rem;
+  }
+  .partners_center {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .partners--paddingbotton {
+    padding-bottom: 2rem;
+  }
+}
+
+.team {
+  background-color: #0000ff;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.team_header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 580px) {
+  .team_header {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .team--paddingbotton {
+    padding-bottom: 3rem;
+  }
+}
+
+.team_text {
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  background-color: darkblue;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .footer--paddingbotton {
+    padding-bottom: 3rem;
+  }
+  .footer {
+    text-align: center;
+  }
+}
+
+.navbar {
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 580px) {
+  .navbar--top {
+    margin-top: 1rem;
+  }
+}
+
+.navbar--nowrap {
+  white-space: nowrap;
+}
+
+.navbar_div {
+  margin-top: 1rem;
+}
+
+.test {
+  color: red;
+}
+
+.container_border {
+  border: solid 5px red;
+}
+
+.container_itemsborder {
+  border: solid 1px green;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,31 @@
+.parkingProblems {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.parkingProblems_left {
+  text-align: left;
+}
+
+.parkingProblems_header {
+  padding-bottom: 3%;
+}
+
+.parkingProblems--paddingboton5 {
+  padding-bottom: 5%;
+}
+
+.parkingProblems--color {
+  color: #0000ff;
+}
+
+@media only screen and (min-width: 579px) {
+  .parkingProblems_header {
+    font-size: 32px;
+  }
+  .parkingProblems_sectionHeader {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=SecondSection.css.map */

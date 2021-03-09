@@ -1,36 +1,27 @@
-@import "Variables";
-
-.navbar {
-  // // width: 100%;
-  // padding-top: 2rem;
-  // padding-bottom: 2rem;
-  // margin-left: 5rem;
-  // margin-top: 2rem;
-  // margin-bottom: 2rem;
-
-  // color: red;
-}
 @media only screen and (max-width: 580px) {
   .navbar--top {
     margin-top: 1rem;
   }
 }
+
 .navbar--nowrap {
   white-space: nowrap;
 }
+
 .navbar_div {
   margin-top: 1rem;
 }
+
 .navbar--top {
   margin-top: 2rem;
 }
-// .red {
-//   color: red;
-// }
+
 .navbar--margin {
   color: red;
 }
+
 .nav_bar {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+/*# sourceMappingURL=NavBar.css.map */
